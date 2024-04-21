@@ -55,14 +55,18 @@ Database Access: Setup to run SQL queries, with access to a SQL server or a loca
 Installation
 Clone the repository to your local machine:
 
-git clone https://github.com/yourusername/bundesliga-analysis.git
+git clone https://github.com/itzmore-mph/itzmore-mph-portfolio.git
 cd bundesliga-analysis
 
 Running the Analyses
 Python
 Navigate to the notebooks/ directory and run the Jupyter Notebooks:
 
-jupyter notebook Bayern.ipynb
+jupyter notebook Portfolio-Project_itzmore-mph_Performance-Analysis_Top-5-Clubs_Bundesliga_Germany_Bayer-04-Leverkusen.ipynb
+jupyter notebook Portfolio-Project_itzmore-mph_Performance-Analysis_Top-5-Clubs_Bundesliga_Germany_FC-Bayern-Munich.ipynb
+jupyter notebook Portfolio-Project_itzmore-mph_Performance-Analysis_Top-5-Clubs_Bundesliga_Germany_VfB-Stuttgart.ipynb
+jupyter notebook Portfolio-Project_itzmore-mph_Performance-Analysis_Top-5-Clubs_Bundesliga_Germany_Borussia-Dortmund.ipynb
+jupyter notebook Portfolio-Project_itzmore-mph_Performance-Analysis_Top-5-Clubs_Bundesliga_Germany_RB-Leipzig.ipynb
 
 Repeat for other clubs as needed.
 
@@ -70,14 +74,14 @@ SQL
 Ensure your database connection details are configured correctly in the SQL scripts or within the Python notebooks where SQL queries are executed.
 
 R
-Navigate to the R/ directory and run the R scripts for each club:
+Navigate to the R/ directory and run the R markdown for Expected Goal (xG) Analysis:
 
-Rscript Bayern.R
+Rmarkdown Top5_Bundesliga-Germany_xG_Analysis.Rmd
 
-Repeat for other clubs as needed.
+
 
 Data Sources
-Data was sourced from official Bundesliga websites, Kaggle datasets, and other sports analytics platforms. Specific data files and their sources are listed within each notebook and script.
+Data was sourced from official Transfermarkt.de websites, Kaggle datasets, and also other open Github Projects. Specific data files and their sources are listed within each notebook and script.
 
 Contributing
 Contributions are welcome. Please fork the repository and submit a pull request with your changes.
@@ -87,9 +91,6 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 Contact
 For queries or collaboration, please open an issue in the GitHub repository.
-
-
-Make sure to replace the placeholder URL in the clone instructions with your actual repository URL. This README.md will guide users and collaborators through your project effectively.
 
 
 
