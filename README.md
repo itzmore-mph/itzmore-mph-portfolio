@@ -87,7 +87,7 @@ Contributing
 Contributions are welcome. Please fork the repository and submit a pull request with your changes.
 
 License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+This project is licensed under the Apache License - see the LICENSE.md file for details.
 
 Contact
 For queries or collaboration, please open an issue in the GitHub repository.
